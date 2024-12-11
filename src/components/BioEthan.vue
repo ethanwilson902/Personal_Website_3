@@ -1,6 +1,6 @@
 <template>
-    <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="#">Ethan Wilson</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,31 +19,29 @@
       </div>
     </nav>
 
-      
-      
-      <div class="container text-center">
-        <h1 class="mb-4">About Me</h1>
-        <img src="@/assets/PFP.jpg" alt="Professional Image" class="img-fluid mx-auto d-block" style="max-width: 300px;">
-        <p>I am a dedicated and passionate About Information Technology with only two years of experience in IT. My journey began with a profound interest in the ins and outs of computers, leading me to want to further my knowledge on them.
-            Interests:
-          In my free time, I enjoy Playing video games and spending time with friends and family.</p>
-          <div class="container text-center">
-          <p>Vision: <br>
-I am driven by my thurst for knowledge and knowing every part of a computer and how they work. I aim to graduate from CCC and get a job where I can further grow my knowledge.</p>
-          </div> 
-        
+    <div class="container text-center">
+      <h1 class="mb-4">About Me</h1>
+      <img src="@/assets/PFP.jpg" alt="Professional Image" class="img-fluid mx-auto d-block" style="max-width: 300px;">
+      <p>
+        I am a dedicated and passionate individual with a growing interest in Information Technology. With only two years of experience in IT, my journey began with a profound interest in the inner workings of computers, leading me to pursue further knowledge in this field.
+      </p>
+      <p>
+        Interests: In my free time, I enjoy playing video games and spending time with friends and family.
+      </p>
 
-      </div>
+      <p>
+        Vision: I am driven by my thirst for knowledge and understanding every part of a computer and how it works. My goal is to graduate from CCC and secure a job where I can continue to grow my expertise.
+      </p>
     </div>
-  </template>
-  
-  <script>
+  </div>
+</template>
+
+<script>
   export default {
     // Your component logic...
   }
-  </script>
-  
-  <style>
+</script>
+
+<style>
   /* Your CSS styles... */
-  </style>
-  
+</style>
