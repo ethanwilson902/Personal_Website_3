@@ -1,6 +1,6 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
       <a class="navbar-brand" href="#">Ethan Wilson</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,29 +19,33 @@
       </div>
     </nav>
 
-    <div class="container text-center">
-      <h1 class="mb-4">About Me</h1>
-      <img src="@/assets/PFP.jpg" alt="Professional Image" class="img-fluid mx-auto d-block" style="max-width: 300px;">
-      <p>
-        I am a dedicated and passionate individual with a growing interest in Information Technology. With only two years of experience in IT, my journey began with a profound interest in the inner workings of computers, leading me to pursue further knowledge in this field.
-      </p>
-      <p>
-        Interests: In my free time, I enjoy playing video games and spending time with friends and family.
-      </p>
-
-      <p>
-        Vision: I am driven by my thirst for knowledge and understanding every part of a computer and how it works. My goal is to graduate from CCC and secure a job where I can continue to grow my expertise.
-      </p>
+    <div class="container my-5">
+      <h1 class="text-center mb-4">About Me</h1>
+      <img src="@/assets/PFP.jpg" alt="Professional Image" class="img-fluid rounded-circle mx-auto d-block" style="max-width: 300px;">
+      <div class="mt-4">
+        <p class="lead">
+          I am a dedicated and passionate individual with a growing interest in Information Technology. With only two years of experience in IT, my journey began with a profound interest in the inner workings of computers, leading me to pursue further knowledge in this field.
+        </p>
+        <p>
+          <strong>Interests:</strong> In my free time, I enjoy playing video games and spending time with friends and family.
+        </p>
+        <p>
+          <strong>Vision:</strong> I am driven by my thirst for knowledge and understanding every part of a computer and how it works. My goal is to graduate from CCC and secure a job where I can continue to grow my expertise.
+        </p>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-  export default {
-    // Your component logic...
-  }
+export default {
+  // Your component logic...
+}
 </script>
 
 <style>
-  /* Your CSS styles... */
+/* Your CSS styles... */
+body {
+  background-color: #f8f9fa; /* Light background for better contrast */
+}
 </style>
