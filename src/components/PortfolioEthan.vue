@@ -25,9 +25,8 @@
 
     <div class="container text-left">
       <ul>
-        <li>Class Information Technology Website</li>
-        <li>A C# hosptial charges program</li>
-        <li>A Burger Specials progam that changed day to see the daily special.</li>
+        <li><a href="https://github.com/ethanwilson902/Grocery-List-App" target="_blank">A program that helps you create a grocery list</a></li>
+        <li><a href="https://github.com/ethanwilson902/Notes-App" target="_blank">A simple program that helps you take notes</a></li>
       </ul>
     </div>
 
@@ -50,7 +49,7 @@
 
     <div class="container text-left">
       <ul>
-        <li>Second year student at Central Communinty College</li>
+        <li>Third-year student at Central Community College</li>
       </ul>
     </div>
   </div>
