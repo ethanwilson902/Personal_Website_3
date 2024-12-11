@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan Wilson's Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue-router/dist/vue-router.js"></script>
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <router-view></router-view>
+    </div>
+
+    <script>
+        // Portfolio Component
+        const Portfolio = {
+            template: `
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">Ethan Wilson</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <router-link to="/portfolio" class="nav-link">Portfolio</router-link>
+                                </li>
+                                <li class="nav-item">
+                                    <router-link to="/bio" class="nav-link">Bio</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="container text-center">
+                        <h1 class="mb-4">Projects</h1>
+                    </div>
+
+                    <div class="container text-left">
+                        <ul>
+                            <li><a href="https://github.com/ethanwilson902/Grocery-List-App" target="_blank">A program that helps you create a grocery list</a></li>
+                            <li><a href="https://github.com/ethanwilson902/Notes-App" target="_blank">A simple program that helps you take notes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="container text-center">
+                        <h1>Skills</h1>
+                    </div>
+
+                    <div class="container text-left">
+                        <ul>
+                            <li>Microsoft Word</li>
+                            <li>Microsoft Powerpoint</li>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft Access</li>
+                        </ul>
+                    </div>
+
+                    <div class="container text-center">
+                        <h1 class="mb-4">Experience</h1>
+                    </div>
+
+                    <div class="container text-left">
+                        <ul>
+                            <li>Third-year student at Central Community College</li>
+                        </ul>
+                    </div>
+                </div>
+            `
+        };
+
+        // Bio Component
+        const Bio = {
+            template: `
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <a class="navbar-brand" href="#">Ethan Wilson</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <router-link to="/portfolio" class="nav-link">Portfolio</router-link>
+                                </li>
+                                <li class="nav-item">
+                                    <router-link to="/bio" class="nav-link">Bio</router-link>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+
+                    <div class="container text-center">
+                        <h1>About Me</h1>
+                        <p>I am a dedicated and passionate individual with a growing interest in Information Technology. With only two years of experience in IT, my journey began with a profound interest in the inner workings of computers, leading me to pursue further knowledge in this field.</p>
+                        <p><strong>Interests:</strong> In my free time
