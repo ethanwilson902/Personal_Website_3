@@ -1,27 +1,23 @@
 <template>
   <div id="app">
-    <!-- Your app header or navigation -->
-    
-
-    <!-- Main content area -->
-    <main>
-      <router-view></router-view>
-    </main>
-
-    <!-- Your app footer or other sections -->
-    <footer>
-      <!-- Footer content -->
-    </footer>
+    <Navbar />
+    <router-view />
   </div>
 </template>
 
 <script>
+import Navbar from '@/components/Navbar.vue';
+
 export default {
-  name: 'App',
-  // Other configurations or scripts related to App.vue
-}
+  components: {
+    Navbar,
+  },
+};
 </script>
 
 <style>
-  @import 'C:\Users\ethan\portfolio\style.css';
+/* Global styles (if necessary) */
+body {
+  font-family: Arial, sans-serif;
+}
 </style>
