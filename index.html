@@ -10,17 +10,31 @@
         body {
             background-color: #f8f9fa; /* Light background for better contrast */
         }
+        .navbar {
+            background-color: #001f3f; /* Navy blue color */
+        }
+        .navbar a {
+            color: white; /* White text color for navbar links */
+        }
+        .navbar a:hover {
+            color: #ffcc00; /* Gold color on hover */
+        }
+        .navbar-nav {
+            flex-direction: row; /* Align items in a row */
+            justify-content: center; /* Center the items */
+            width: 100%; /* Full width for centering */
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+    <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
         <a class="navbar-brand" href="#">Ethan Wilson</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav mx-auto"> <!-- Center the nav items -->
                 <li class="nav-item">
                     <a href="src/components/PortfolioEthan" class="nav-link">Portfolio</a>
                 </li>
@@ -34,7 +48,7 @@
 
     <div class="container my-5">
         <h1 class="text-center mb-4">About Me</h1>
-        <img src="assets/PFP.jpg" alt="Professional Image" class="img-fluid rounded-circle mx-auto d-block" style="max-width: 300px;">
+        <img src="src/assets/PFP.jpg" alt="Professional Image" class="img-fluid rounded-circle mx-auto d-block" style="max-width: 300px;">
         <div class="mt-4">
             <p class="lead">
                 I am a dedicated and passionate individual with a growing interest in Information Technology. With only two years of experience in IT, my journey began with a profound interest in the inner workings of computers, leading me to pursue further knowledge in this field.
